@@ -1,0 +1,152 @@
+.web-back{
+    background-color: black;
+}
+.head-back{
+    background-color: #777777;
+    padding: 50px 10%;
+}
+/* common-styles */
+.display-flex{
+    display: flex;
+}
+.spc-btw{
+    justify-content: space-between;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.orange{
+    color: #E6533C;
+}
+.bg-color-org{
+    background-color: #E6533C;
+}
+.text-gray{
+    color: #FFFFFF;
+}
+
+/* branding section */
+/* nav */
+.navbar{
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-link{
+    text-decoration: none;
+}
+.brand{
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.get-body{
+    font-size: 36px;
+    font-weight: bold;
+}
+.home-button{
+    padding: 5px;
+    border-radius: 46px;
+    border: 10px solid #E6533C;
+}
+.join-btn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 42px;
+    border: 10px solid #E6533C;
+}
+.dw-btn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 42px;
+    border: 10px solid black;
+    background-color: black;
+}
+/* div */
+.cool-font{
+    font-style: italic;
+}
+.body-1{
+    justify-content: space-between;
+}
+
+/* Change Your Habits section */
+.habit-sec{
+    padding-bottom: 20px;
+}
+.habit-title{
+    font-style: bold;
+    font-size: 48px;
+}
+.main-1{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.habits{
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.run-title{
+    font-style: bold;
+    font-size: 48px;
+}
+.main-2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 300px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.run-header{
+    gap: 80px;
+}
+
+/* bmi calculator */
+.bmi-calc{
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center
+}
+.bmi-title{
+    font-style: bold;
+    font-size: 48px;
+}
+.bmi-calc-header{
+    font-style: bold;
+    font-size: 30px;
+}
+
+.c-chart{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.bmi-item{
+    border: 1px solid #FFFFFF;
+}
+
+
+/* calculate bmi */
+.bmi-fix{
+    display: flex;
+}
+
+/* trainer section */
+.team{
+    justify-content: center;
+    text-align: center;
+}
+.trn{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    width: 100%;
+    height: 300px;
+}
