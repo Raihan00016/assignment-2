@@ -281,3 +281,12 @@ footer{
     justify-content: center;
     text-align: center;align-items: center;
 }
+
+/* responsive */
+@media screen and (max-width: 576px){
+        .navbar,
+        .nav-links,
+        {
+            flex-direction: column;
+        }
+}
