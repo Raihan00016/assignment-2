@@ -191,6 +191,23 @@ main{
     margin: 0 10%;
     margin-bottom: 100px;
 }
+.input-group{
+    background-color: gray;
+    /* margin: 20px; */
+    /* padding: 10px; */
+    padding-right: 20px;
+    margin-right: 300px;
+    border-radius: 10%;
+    border: 10px solid gray;
+}
+
+.calc-submit{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 42px;
+    border: 10px solid #E6533C;
+    background-color: #E6533C;
+}
 
 /* trainer section */
 .team-main{
