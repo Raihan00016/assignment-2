@@ -1,4 +1,7 @@
 /* General styles */
+.menu{
+    display: none;
+}
 html{
     background-color: black;
 }
@@ -32,7 +35,12 @@ main {
     color: #FFFFFF;
 }
 
-.foot-brand {
+.foot-brand{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.brand{
     font-style: italic;
     font-size: 50px;
     font-weight: bolder;
@@ -305,7 +313,17 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-
+.get-li-1{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.get-item{
+    list-style: none;
+}
+.ft-1{
+    border-top: 1px solid white;
+}
 /* Responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -358,7 +376,11 @@ footer {
         height: 65vw;
     }
     footer {
+        border: 1px solid white;
         flex-direction: column;
         text-align: center;
+    }
+    .menu{
+        display: block;
     }
 }
