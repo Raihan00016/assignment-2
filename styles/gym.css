@@ -294,7 +294,8 @@ footer{
         .habits,
         .main-2,
         .bmi-parent,
-        footer
+        footer,
+        .bmi-div
         {
             flex-direction: column;
         }
